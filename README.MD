@@ -8,7 +8,8 @@ Open terminal on Mac.  Must have npm installed.
 
 Enter following commands:
 
-npm install
-npm run boom!
+	npm install
+
+	npm run boom!
 
 Will open a tab in Chrome.
