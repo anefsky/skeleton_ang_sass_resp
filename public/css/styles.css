@@ -1,0 +1,58 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.site-header {
+  background: #0D1313;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  width: calc(100vw - 16px); }
+  @media (max-width: 600px) {
+    .site-header {
+      flex-wrap: wrap; } }
+  .site-header .account-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 10px; }
+    .site-header .account-actions .account-dropdown ul {
+      display: none; }
+  .site-header .sign-out-link {
+    color: #62DEBE;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    text-transform: uppercase; }
+  .site-header .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px; }
+  body.fixed-nav .site-header {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1); }
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0; }
+  .site-nav ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #CDD0D0;
+    padding: 20px;
+    display: inline-block; }
+  .site-nav ul .active a {
+    font-weight: bold;
+    color: #62DEBE;
+    background: #14604c; }
+
+@media (max-width: 600px) {
+  .site-nav {
+    order: 2; } }
+
+/*# sourceMappingURL=styles.css.map */
